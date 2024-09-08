@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the latest trends in fashion with Chronicle, your go-to blog for creative and stylish updates."
+    />
+
+    <title>COUTURE</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <a href="index.html" style="color: black; text-decoration: none"
+          ><h1>COUTURE</h1></a
+        >
+        <p>FASHION BLOG & MAGAZINE</p>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="index.html">HOME</a>
+        <a href="#">CATEGORIES</a>
+        <a href="post.html">FEATURES</a>
+        <a href="#">ABOUT ME</a>
+        <a href="#">CONTACTS</a>
+      </nav>
+    </header>
+    
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h1>Contact Form</h1>
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h1>Contact Information</h1>
+                <br>
+                <h2>Phone</h2>
+                <p><a href="tel:+92 309 5424857">+92 309 5424857</a></p>
+                <h2>Email Address</h2>
+                <p><a href="mailto:tariqumar3322@gmail.com">tariqumar3322@gmail.com"</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h2>COUTURE</h2>
+              <p>FASHION BLOG & MAGAZINE</p>
+            </div>
+            <div class="footer-columns">
+              <div class="footer-column">
+                <h3>CATEGORIES</h3>
+                <ul>
+                  <li><a href="#">Style</a></li>
+                  <li><a href="#">Season</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                  <li><a href="#">Fashion</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>LINKS</h3>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Privacy</a></li>
+                </ul>
+              </div>
+              <div class="footer-column newsletter">
+                <h3>NEWSLETTER</h3>
+                <form>
+                  <input type="email" placeholder="Enter Your Email" />
+                  <button type="submit">SUBSCRIBE</button>
+                  <label>
+                    <input type="checkbox" /> I agree that my submitted data is
+                    being collected and stored.
+                  </label>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>COUTURE © 2024. All Rights Reserved.</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-x"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

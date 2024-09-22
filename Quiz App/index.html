@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  
+    
+    <div class="timer">
+        Time left: <span id="countdown">30</span> seconds
+    </div>
+    
+    <div id="score-display">Correct: 0 | Incorrect: 0</div>
+
+    <div class="quiz-container">
+      <div class="progress-bar-wrapper">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p id="current-question">Question 1 of 10</p>
+
+      <h1 id="question-title" class="question-title">
+        The islands with coral-covered surfaces in the Bay of Bengal are:
+      </h1>
+
+      <div id="answer-buttons" class="answer-buttons"></div>
+
+      <button id="submit-btn" class="submit-btn hidden">Submit</button>
+      <button id="next-btn" class="next-btn hidden">Next Question</button>
+    </div>
+
+    <div id="result-container" class="hidden result-container">
+      <h2>Your Final Score is: <span id="final-score"></span></h2>
+      <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
